@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  background: #030321;
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+
+h1 {
+    position: relative;
+ 
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+/* styling my button */
+
+.white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: #122;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: relative;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #FFF;
+	color: #122;
+}
+
+
+.text {
+	 display: flex;
+	 justify-content: center;
+	 margin-top: 150px;
+         position: relative;
+	 transform: translateY(-50%);
+	 text-align: center;
+	 transition: transform 0.3s ease-in-out;
+}
+ .text:hover {
+	 transform: rotateX(35deg), translateY(-50%);
+}
+ .text:hover span {
+	 color: #ccc;
+}
+ .text:hover span:nth-child(odd) {
+	 transform: skewY(15deg);
+}
+ .text:hover span:nth-child(even) {
+	 transform: skewY(-15deg);
+	 background-color: #f9f9f9;
+	 color: #a6a6a6;
+}
+ .text > span {
+	 display: block;
+	 background-color: #fff;
+	 width: 120px;
+	 height: 120px;
+	 line-height: 120px;
+	 transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+	 box-shadow: 0 40px 50px rgba(0, 0, 0, 0.1);
+}
+ .text > span:first-child {
+	 border-radius: 5px 0 0 5px;
+}
+ 

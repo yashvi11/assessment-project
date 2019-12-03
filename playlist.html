@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User's playlists</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="createCss.css">
+        <link rel="stylesheet" href="text.css">
+        <style>
+            .main-container {
+    min-height: 300vh;
+    
+
+ 
+
+	background: linear-gradient(75deg, rgba(119, 205, 155, 0), rgba(69, 24, 115, 0.53)),url(https://wallpapercave.com/wp/wp4614442.jpg) ;
+	
+        display: flex;
+	flex-direction: column;
+	justify-content: center;
+          background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+            }
+        .flex-container {
+            margin-top: auto;
+  //display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  
+}
+
+.flex-container > div {
+    
+  background-color:transparent;
+  width: 350px;
+  margin: 100px;
+    margin: 10px;
+    padding-left: 110px;
+    text-align: center;
+  line-height: 75px;
+  height: 390px;
+  font-size: 30px;
+}
+        </style>
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="create.html">Create</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="playlist.html">View Playlists</a>
+    </li>
+    
+  </ul>
+</nav>
+ <main class="main-container">
+ 
+
+     <svg viewBox="0 0 960 300" style="top:0;">
+	<symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="90%" >Playlists</text>
+	</symbol>
+
+	<g class = "g-ants">
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+	</g>
+</svg>
+		<section>
+			
+			<div class="playlist2 flex-container">
+				<div class="loader">
+					<div class="inner-circle"></div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+  
+        <!--nav ends-->
+       
+    
+   
+
+
+   
+   
+    </body>
+    <script src="music.js"></script>
+</html>
