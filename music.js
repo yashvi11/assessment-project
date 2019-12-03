@@ -4,7 +4,7 @@
 
 
 let playlist_url="https://api.spotify.com/v1/users/"+user_id+"/playlists";
-let token = "Bearer BQDgc0qPPB9EZ9aysOcI9ql-dzLrXKN10eJC9EeV54Ki9QnOcUnOg9ztitvQdxAcHckQUUAYxsPGUZxucuratdlEb2fdoeZpWAdkBqaeDqniXMq5roM1pLt6FB_2gHdBW6u6VdM1gyZej8wBUw7NhQHv1JXrtyoqqGPFlOue8y6s187U8mp3F4clMxAaEpWJeP-t69SkFKQoEnHtLkLdrNW314Oid4u5JTFAYRz6Cg";
+let token = "Bearer BQCOC4ylaeqEgb3XCDg7rZum7NKlZBspxQcNjsie1wEbrMKY7MHWUDm-HXo4kGMaMqeAcWjNWL58IK4Mk3FFCq7vPlWk_aOR5B9U35bsoWo2_QlM3TqKXpBmYDlrTCBL1X-bMswlv1q8aHLe0cMP3ZK8E2yI6I_wW3exJXabyWmAMpgIkPdmnYpywfPqyLW9qiyTBOs3iJizkR02hSH6_orJPR-VxeUX8uZgMCDhsw";
 document.addEventListener('DOMContentLoaded',function(ev){
     let uri = playlist_url;
     let h =new Headers();
