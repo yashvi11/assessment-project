@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded',function(ev){
         method: 'POST',
         headers: h,
         
-       body: JSON.stringify({name: "test", public: false}),
+       body: JSON.stringify({name: "test1", public: false}),
             json: true,
         
         
